@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакт</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-form {
+            max-width: 500px;
+            margin: 30px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+            background-color: #f9f9f9;
+        }
+
+        .contact-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #aaa;
+            border-radius: 8px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .contact-form button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Контакт</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Почетна</a>
+        <a href="biograija.html">Биографија</a>
+        <a href="hobi.html">Хоби</a>
+        <a href="veshtini.html">Вештини</a>
+        <a href="kontakt.html">Контакт</a>
+    </nav>
+
+    <main>
+        <form class="contact-form">
+            <h2>Контактирај ме</h2>
+
+            <label for="fname">Име:</label>
+            <input type="text" id="fname" name="fname" placeholder="Твоето име">
+
+            <label for="lname">Презиме:</label>
+            <input type="text" id="lname" name="lname" placeholder="Твоето презиме">
+
+            <label for="email">Е-пошта:</label>
+            <input type="email" id="email" name="email" placeholder="tvojotmail@mail.com">
+
+            <label for="message">Порака:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Напиши нешто..."></textarea>
+
+            <button type="submit">Испрати</button>
+        </form>
+    </main>
+
+       <footer> Ирина Седмакова </footer>
+
+</body>
+</html>
